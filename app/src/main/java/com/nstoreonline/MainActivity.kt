@@ -32,7 +32,6 @@ class MainActivity : AppCompatActivity() {
     fun loginButtonNavClicked(view: View) {
         val loginIntent = Intent(this, LoginActivity::class.java)
         startActivity(loginIntent)
-        finish()
     }
 
     fun addChanelClicked(view: View) {
