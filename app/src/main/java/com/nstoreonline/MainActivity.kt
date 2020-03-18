@@ -1,6 +1,7 @@
 package com.nstoreonline
 
 import android.os.Bundle
+import android.view.View
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.GravityCompat
@@ -25,5 +26,17 @@ class MainActivity : AppCompatActivity() {
         }else {
             super.onBackPressed()
         }
+    }
+
+    fun loginButtonNavClicked(view: View) {
+
+    }
+
+    fun addChanelClicked(view: View) {
+
+    }
+
+    fun sendMessageBtnClicked(view: View){
+
     }
 }
