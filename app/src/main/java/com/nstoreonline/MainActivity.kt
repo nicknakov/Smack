@@ -1,5 +1,6 @@
 package com.nstoreonline
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.ActionBarDrawerToggle
@@ -29,7 +30,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun loginButtonNavClicked(view: View) {
-
+        val loginIntent = Intent(this, LoginActivity::class.java)
+        startActivity(loginIntent)
+        finish()
     }
 
     fun addChanelClicked(view: View) {
